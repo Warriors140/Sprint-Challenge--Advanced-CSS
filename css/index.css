@@ -1,3 +1,12 @@
+.btn {
+  background-color: #23293B;
+  height: 30px;
+  width: 100px;
+  color: #F6F7F8;
+  text-align: center;
+  line-height: 25px;
+  font-size: 15px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -159,6 +168,27 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.main-section {
+  color: #22283B;
+  background: #f4f4f4;
+  padding: 20px 0;
+  border: 1px double #e0e0e0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 60%;
+  margin-left: 310px;
+}
+.main-section h2 {
+  padding-bottom: 20px;
+  margin-right: 40px;
+}
+nav a {
+  margin-right: 50px;
+  text-decoration: none;
+  color: black;
 }
 footer {
   color: #22283B;
