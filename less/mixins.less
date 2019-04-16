@@ -1,1 +1,19 @@
 // Mixins Here
+
+.center-parametric(@color, @height, @width, @font-color) {
+    background-color: @color;
+    height: @height;
+    width: @width;
+    color: @font-color;
+    text-align: center;
+    line-height: 25px;
+    font-size: 15px;
+    
+  }
+
+ .btn {
+      .center-parametric(@ebony-clay, 30px, 100px, @porcelain);
+      border-radius: 5px;
+      
+      }
+ 

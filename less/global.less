@@ -33,6 +33,58 @@ p {
 .container {
   max-width: 800px;
   width: 100%;
-  margin: 0 auto;  
+  margin: 0 auto;
+  
+  @media @phone {
+
+
+    header {
+      width: 100%;
+
+      .space {
+        width: 100%;
+      }
+    }
+
+    .space-images {
+      display: flex;
+      flex-direction: column;
+      
+
+      .sky {
+        display: none;
+      }
+
+      .launch {
+        display: none;
+      }
+
+      .blast {
+        width: 90%;
+      }
+    }
+
+    .walk {
+      display: flex;
+      flex-direction: column;
+      
+
+      .walk-img {
+        order: 1;
+        width: 400px !important;
+        padding-bottom: 20px;
+      }
+
+      .walk-text {
+        order: 2;
+        width: 400px !important;
+      }
+
+      .btn {
+        order: 3;
+        width: 100% !important;
+      }
+    }
+  }  
 }
 
