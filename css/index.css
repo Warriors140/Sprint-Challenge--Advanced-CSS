@@ -6,6 +6,7 @@
   text-align: center;
   line-height: 25px;
   font-size: 15px;
+  border-radius: 5px;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -231,7 +232,6 @@ nav a {
 }
 @media (max-width: 500px) {
   .main-section {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     margin-right: 100%;
